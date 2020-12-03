@@ -17,7 +17,7 @@ function App() {
 
         <hr/>
 
-           <Dinner dishName="pulao" sweetdish="gajar ka halwa"/>
+           <Dinner dishName="pulao and kheer" sweetdish="gajar ka halwa"/>
         </div>
   );
 
