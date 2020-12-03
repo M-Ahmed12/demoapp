@@ -1,23 +1,23 @@
-import React from 'react';
-import Dinner from './dinner.js';  
+import React from 'react'; 
+import Dinner from './dinner';
+
 
 function App() {
   return ( <div>
-       <h1>hello world from ahmed</h1>
 
-        <hr/>
-       {/* <Dinner></Dinner> */}
+       {/* <Dinner> </Dinner> */}
+      <Dinner dishname="karahi" sweetdish="kheer"/>   
+     
+      <hr/>
+       
+      <Dinner dishname="biryani" sweetdish="halwa"/>
+       
+      <hr/>
 
+      <Dinner dishname="Nihari" sweetdish="gajar ka halwa"/>      
+ 
+      <hr/>
 
-           <Dinner dishName="Nihari" sweetdish="kheer"/>
-
-        <hr/> 
-      
-           <Dinner dishName="biryani" sweetdish="jalebi"/>
-
-        <hr/>
-
-           <Dinner dishName="pulao and kheer" sweetdish="gajar ka halwa"/>
         </div>
   );
 
@@ -25,7 +25,4 @@ function App() {
 
 export default App;
 
-var student = {
-  name: 'ahmed',
-  course: 'bootcamp'
-}
+
