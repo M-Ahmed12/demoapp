@@ -14,7 +14,7 @@ function App() {
        
       <hr/>
 
-      <Dinner dishname="Nihari" sweetdish="gajar ka halwa"/>      
+      <Dinner dishname="Pulao" sweetdish="gajar ka halwa"/>      
  
       <hr/>
 
